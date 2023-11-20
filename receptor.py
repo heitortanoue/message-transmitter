@@ -1,7 +1,7 @@
 from utils import *
 
 def camadaFisicaReceptora(bits: list, bits_corretos: list):
-    imprime_mensagem("Mensagem recebida com bits de paridade:", "grey")
+    imprime_mensagem("Mensagem recebida com bits de verificação de erro:", "grey")
     imprime_bits_colorido(bits, bits_corretos)
     print()
 

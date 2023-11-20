@@ -44,8 +44,8 @@ def camadaEnlaceDadosTransmissora(bits: list):
     bits = controleErroEnlaceTransmissora(bits)
 
     print()
-    imprime_mensagem("Mensagem enviada com bits de paridade:", "grey")
-    imprime_bits(bits)
+    imprime_mensagem("Mensagem enviada com bits de verificação de erro:", "grey")
+    imprime_bits(bits, True)
     print()
 
     # Chama a próxima camada
